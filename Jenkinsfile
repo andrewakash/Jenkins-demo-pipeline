@@ -4,6 +4,10 @@ pipeline{
         App_name = "Myapplication"
         Version = "1.0"
     }
+    tools {
+        maven 'Maven-3.9.16'
+    }
+
     parameters{
             choice(
                 name: 'Environment',
