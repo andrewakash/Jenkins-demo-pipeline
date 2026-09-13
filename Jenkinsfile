@@ -32,6 +32,7 @@ pipeline{
                 echo "current directory is ${env.WORKSPACE}"
             }
         }   
+        }
         post{
             success{
                 echo "Pipeline executed successfully"
